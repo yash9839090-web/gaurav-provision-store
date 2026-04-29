@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Products - Gaurav Provision Store</title>
+<style>
+  body { font-family: 'Open Sans', sans-serif; margin:0; padding:0; background:#faf8f3; color:#3a2f1c; }
+  header, nav, footer { background:#003399; color:white; text-align:center; padding:15px 0; font-family: 'Poppins', sans-serif; }
+  nav a { color:white; margin: 0 15px; text-decoration:none; font-weight:bold;}
+  nav a:hover { color:#f58426; }
+  .container { max-width: 1000px; margin:30px auto; padding: 0 20px; }
+  h2 { text-align:center; color:#f58426; font-family:'Poppins', sans-serif; margin-bottom:25px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap: 25px; }
+  .product-card { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
+  .product-card img { max-width: 100%; max-height: 140px; border-radius: 10px; object-fit: cover; margin-bottom: 10px; }
+  .product-card h3 { font-family: 'Poppins', sans-serif; margin: 15px 0 10px; }
+  .btn { background: #f58426; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; text-transform: uppercase; }
+  .btn:hover {background: #e46b00;}
+  footer { padding: 20px; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<header>Gaurav Provision Store</header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="about.html">About</a>
+  <a href="location.html">Location</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <h2>Our Products</h2>
+  <div class="grid">
+    <div class="product-card">
+      <img src="amul-milk.jpg" alt="Fresh Milk" />
+      <h3>Fresh Milk (Amul)</h3>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="curd.jpg" alt="Curd" />
+      <h3>Curd</h3>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="masala-buttermilk.jpg" alt="Masala Buttermilk" />
+      <h3>Masala Buttermilk</h3>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="snacks.jpg" alt="Snacks & Cold Drinks" />
+      <h3>Snacks & Cold Drinks</h3>
+      <button class="btn">Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+<footer>&copy; 2024 Gaurav Provision Store | All Rights Reserved</footer>
+
+</body>
+</html>
